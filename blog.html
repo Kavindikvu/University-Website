@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+         <a href="index.html"><img src="images/logo.png"></a>
+         <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav> 
+       <h1>Our Certificate & Online Programs For 2025</h1>
+    </section>
+
+    <!----Blog content----->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left"> 
+                <img src="images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2025</h2>
+                <p>&#x2022 Welcome to the "Certificate & Online Programs for 2025" webpage! Here, we provide a wide range of certificate courses and online programs that are designed to help you gain new skills, improve your knowledge, and move forward in your career or personal development journey.</p>
+                <br>    
+                <p>&#x2022 Our programs are created with flexibility in mind, making it easy for students, working professionals, and lifelong learners to fit learning into their busy lives. You can choose from a variety of subjects, including business, technology, arts, health, and personal growth. Whether you're looking to boost your professional qualifications, explore a new area of interest, or learn for fun, we have something for everyone.</p>
+                <br>
+                <p>&#x2022 All courses are led by experienced instructors who are experts in their fields. You will have access to high-quality learning materials, practical assignments, and interactive sessions to ensure you get the most out of your learning experience. Plus, since these programs are online, you can study from anywhere in the world at a time that works best for you.</p>
+                <br>
+                <p>&#x2022 Our 2025 program lineup includes short-term certificate courses, specialized programs, and comprehensive learning tracks to meet your unique needs. These programs are affordable, and we also offer financial aid options for eligible students to make education accessible to everyone.</p>
+                <br>
+                <p>&#x2022 Take a look at our course catalog and start your journey toward achieving your goals. Enroll today and become part of a community of learners who are shaping their futures through education.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>    
+                <div>
+                    <span>Business Analytics</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Technology</span>
+                    <span>13</span>
+                </div>
+                <div>
+                    <span>Health</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Politics</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Business</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Marketing</span>
+                    <span>5</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!----Footer---->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>We are Eduford. We provide the best education in the world.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>�� 2021 Eduford. All rights reserved.</p>
+
+<!----JavaScript for Toggle Menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
